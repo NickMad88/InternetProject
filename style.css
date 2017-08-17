@@ -1,0 +1,74 @@
+
+#header{
+    width: 970px;
+    height: 200px;
+    background-color: white;
+}
+#www{
+    width: 970px;
+    height: 83px;
+    background-color: #326ea0;
+    vertical-align: bottom; 
+}
+#sidebar{
+    width: 250px;
+    height: 650px;
+    background-color: green;
+    display: inline-block;
+}
+#buttons{
+    width: 225px;
+    height: 320px;
+    background-color: purple;
+    display: inline-block;
+    margin-left: 10px;
+}
+#adframe{
+    width: 225px;
+    height: 320px;
+    background-color: #E35014;
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+#currentnav{
+    width: 715px;
+    height: 83px;
+    background-color: #84849F;
+    vertical-align: top;
+    display: inline-block;
+}
+#contactinfo{
+    width: 238px;
+    height: 80px;
+    background-color: #D05C5C;
+    vertical-align: right;
+    display: inline-block;
+    margin-left: 385px;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+}
+#homepic{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+#phonepic{
+    width: 50px;
+    height: 50px;
+    display: inline;
+    margin-top: 15px;
+}
+#title{
+    font-family: "Times New Roman";
+    font-size: 50pt;
+    display: inline;
+}
+#wwwtitle{
+    font-family: "Times New Roman";
+    font-size: 50pt;
+    display: inline;
+    color: white;
+}
