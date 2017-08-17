@@ -1,3 +1,7 @@
+/* *{
+    padding: 0px;
+    margin: 0px;
+} */
 
 #header{
     width: 970px;
@@ -13,20 +17,21 @@
 #sidebar{
     width: 250px;
     height: 650px;
-    background-color: green;
+    background-color: white;
     display: inline-block;
 }
 #buttons{
     width: 225px;
     height: 320px;
-    background-color: purple;
+    background-color: white;
     display: inline-block;
     margin-left: 10px;
+    border-bottom: 1px solid black;
 }
 #adframe{
     width: 225px;
     height: 320px;
-    background-color: #E35014;
+    background-color: white;
     display: inline-block;
     margin-left: 10px;
     
@@ -34,26 +39,39 @@
 #currentnav{
     width: 715px;
     height: 83px;
-    background-color: #84849F;
+    background-color: white;
     vertical-align: top;
     display: inline-block;
+    border-bottom: 4px solid black;
+    margin-bottom: 1px;
 }
 #contactinfo{
     width: 238px;
     height: 80px;
-    background-color: #D05C5C;
-    vertical-align: right;
+    background-color: white;
+    vertical-align: top;
     display: inline-block;
     margin-left: 385px;
+}
+#contactnumbers{
+    width: 184px;
+    height: 82px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 10px;
 }
 #logo{
     width: 100px;
     height: 100px;
+    position: relative;
+    top: 35px;
 }
 #homepic{
     width: 50px;
     height: 50px;
     display: inline-block;
+    margin-top: 15px;
 }
 #phonepic{
     width: 50px;
@@ -65,10 +83,177 @@
     font-family: "Times New Roman";
     font-size: 50pt;
     display: inline;
+    position: relative;
+    top: 5px;
 }
 #wwwtitle{
     font-family: "Times New Roman";
     font-size: 50pt;
     display: inline;
     color: white;
+}
+#content{
+    width: 715px;
+    height: 575px;
+    background-color: white;
+    display: inline-block;
+    border-top: 1px solid black;
+}
+#footer{
+    width: 715px;
+    height: 200px;
+    background-color: white;
+    display: inline-block;
+}
+#smalltext1{
+    color: black;
+    font-size: 8pt;
+    font-family: "Times New Roman";
+    text-align: center;
+    position: relative;
+    top: -20px;
+}
+#smalltext2{
+    color: black;
+    font-size: 8pt;
+    font-family: "Times New Roman";
+    text-align: center;
+    position: relative;
+    top: -60px;
+
+}
+#bluetext{
+    color: #81B3D8;
+    font-size: 20pt;
+    font-family: "Times New Roman";
+    text-align: center;
+    position: relative;
+    top: -40px;
+}
+.sectiontitle{
+    color: #0A4067;
+    font-size: 15pt;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    text-align: left; 
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.contenttext{
+    color: black;
+    font-size: 12pt;
+    font-family: "Times New Roman";
+    position: relative;
+    left: 10px;
+}
+#serverclientpic{
+    width: 250px;
+    height: 102px;
+    position: relative;
+    left: 210px;
+}
+#footer{
+    border-top: 3px solid blue;
+    border-left:3px solid blue;
+    border-right: 3px solid blue;
+}
+#htmlcsspic{
+width: 180px;
+    height: 180px;
+    display: inline-block;
+    position: relative;
+    top: 13px;
+    left: 17px;
+}
+#footertitle{
+    color: #0A4067;
+    font-size: 15pt;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    text-align: left;
+    position: relative;
+    left: 35px;
+    top: -130px;
+    display: inline-block;
+}
+.footertext{
+    color: black;
+    font-size: 12pt;
+    font-family: "Times New Roman";
+    text-align: left;
+    position: relative;
+    left: 210px;
+    top: -157px;
+    display: inline-block;
+    margin-right: 200px;
+}
+.sidetext{
+    color: black;
+    font-size: 15pt;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    left: 10px;
+}
+.sidetext2{
+    color: black;
+    font-size: 12pt;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    margin-right: 10px;
+}
+.sidebutton{
+    width: 200px;
+    height: 37px;
+    border-radius: 5px;
+    font-size: 23px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    bottom: -19px;
+    padding: 1px;
+    margin-bottom: 10px;
+}
+#bluebutton{
+    background-color: blue;
+}
+#orangebutton{
+    background-color: #FF4900;
+}
+#learnbutton{
+    background-color: #5DC9E0;
+    position: relative;
+    top: -308px;
+    left: 15px;
+}
+#adbackground{
+    width: 225px;
+    height: 320px;
+    position: relative;
+    top: 25px;
+    display: inline;
+}
+#adtext{
+    color: white;
+    font-size: 20pt;
+    position: relative;
+    top: -303px;
+    left: 24px;
+    margin-left: 3px;
+    margin-right: 52px;
+    text-align: center;
+
+}
+#adpic{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    top: -325px;
+    left: 65px;
 }
